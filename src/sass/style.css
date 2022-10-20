@@ -143,6 +143,27 @@
   height: 44px;
 }
 
+.formLinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.formLinks a {
+  margin: 10px 0;
+  font-size: 0.75em;
+  color: #8f8f8f;
+  text-decoration: none;
+}
+
+.formLinks a:hover,
+.formLinks a:nth-child(2) {
+  color: #45f3ff;
+}
+
 * {
   margin: 0;
   padding: 0;
