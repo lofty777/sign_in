@@ -2,15 +2,15 @@
     display: flex;
     justify-content: space-between;
 
-    a {
+    &__link {
         margin: 10px 0;
         font-size: 0.75em;
         color: #8f8f8f;
         text-decoration: none;
     }
 
-    a:hover,
-    a:nth-child(2) {
+    &__link:hover,
+    &__link:nth-child(2) {
         color: $main-color;
     }
 
