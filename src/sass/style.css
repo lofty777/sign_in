@@ -104,10 +104,11 @@
   z-index: 10;
 }
 
-.formInputBox span {
+.formInputBox__nomination {
   position: absolute;
   left: 0;
-  padding: 20px 0px 10px;
+  top: 15px;
+  padding: 5px 0px 10px;
   font-size: 1em;
   color: #8f8f8f;
   pointer-events: none;
@@ -116,8 +117,8 @@
   transition: 0.5s;
 }
 
-.formInputBox__input:valid ~ span,
-.formInputBox__input:focus ~ span {
+.formInputBox__input:valid ~ .formInputBox__nomination,
+.formInputBox__input:focus ~ .formInputBox__nomination {
   color: #45f3ff;
   -webkit-transform: translateY(-34px);
           transform: translateY(-34px);

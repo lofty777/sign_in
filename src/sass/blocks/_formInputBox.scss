@@ -16,10 +16,11 @@
         z-index: 10;
     }
 
-    span {
+    &__nomination {
         position: absolute;
         left: 0;
-        padding: 20px 0px 10px;
+        top: 15px;
+        padding: 5px 0px 10px;
         font-size: 1em;
         color: #8f8f8f;
         pointer-events: none;
@@ -27,8 +28,8 @@
         transition: 0.5s;
     }
 
-    &__input:valid ~ span,
-    &__input:focus ~ span
+    &__input:valid ~ &__nomination,
+    &__input:focus ~ &__nomination
     {
         color: $main-color;
         transform: translateY(-34px);
