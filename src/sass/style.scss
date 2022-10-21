@@ -7,6 +7,8 @@
 @import '../sass/blocks/form';
 @import '../sass/blocks/formInputBox';
 @import '../sass/blocks/formLinks';
+@import '../sass/blocks/formSubmit';
+
 
 * {
     margin: 0;
@@ -24,39 +26,6 @@ body {
 }
 
 
-.links
-{
- display: flex;
- justify-content: space-between;   
-}
-.links a
-{
-    margin: 10px 0;
-    font-size: 0.75em;
-    color: #8f8f8f;
-    text-decoration: none;
-}
-.links a:hover,
-.links a:nth-child(2)
-{
-    color:$main-color;
-}
-input[type="submit"]
-{
-    border: none;
-    outline: none;
-    background:$main-color;
-    padding: 11px 25px;
-    width: 100px;
-    margin-top: 10px;
-    border-radius: 4px;
-    font-weight: 600;
-    cursor: pointer;
-}
-input[type="submit"]:active
-{
-    opacity: 0.8;
-}
 
 
 
