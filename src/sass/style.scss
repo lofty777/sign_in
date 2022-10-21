@@ -3,11 +3,7 @@
 
 @import 'base/variables';
 @import 'base/animation';
-@import 'blocks/box';
-@import 'blocks/form';
-@import 'blocks/formInputBox';
-@import 'blocks/formLinks';
-@import 'blocks/formSubmit';
+
 
 
 * {
@@ -24,6 +20,12 @@ body {
     min-height: 100vh;
     background: #23242a;
 }
+
+@import 'blocks/box';
+@import 'blocks/form';
+@import 'blocks/formInputBox';
+@import 'blocks/formLinks';
+@import 'blocks/formSubmit';
 
 
 
