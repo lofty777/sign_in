@@ -116,15 +116,15 @@
   transition: 0.5s;
 }
 
-.formInputBox input:valid ~ span,
-.formInputBox input:focus ~ span {
+.formInputBox__input:valid ~ span,
+.formInputBox__input:focus ~ span {
   color: #45f3ff;
   -webkit-transform: translateY(-34px);
           transform: translateY(-34px);
   font-size: 0.75em;
 }
 
-.formInputBox i {
+.formInputBox__divider {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -138,8 +138,8 @@
   z-index: 9;
 }
 
-.formInputBox input:valid ~ i,
-.formInputBox input:focus ~ i {
+.formInputBox__input:valid ~ .formInputBox__divider,
+.formInputBox__input:focus ~ .formInputBox__divider {
   height: 44px;
 }
 
